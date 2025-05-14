@@ -21,5 +21,5 @@ Las contribuciones son bienvenidas. Por favor, crea un pull request para cualqui
 
 ## Autor
 
-\UriiHS
+UriiHS
 
