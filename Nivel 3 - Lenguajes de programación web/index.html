@@ -1,72 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Página del primer reto">
-        <title>Primer ejercicio</title>
-    </head>
-    <body style="width: 30%; margin: 0 auto;">
-        <header>
-            <h1 style="text-align: center;">Mi lista de la compra</h1>
-            <h2 style="text-align: center;">Para que no se me olvide</h2>
-        </header>
-        <main>
-            <h3>Lista de las verduras</h3>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página del primer reto">
+    <title>Primer ejercicio</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body >
+    <header>
+        <h1 class="tac ff_header" >Mi lista de la compra</h1>
+        <h2 class="tac ff_header">Para que no se me olvide</h2>
+    </header>
+    <main>
+        <section>
+            <h2 id="top" class="tac ff_header">Lista de las verduras</h2>
             <ul>
                 <li>Pimientos Rojos</li>
                 <li>Cebollas</li>
                 <li>Zanahorias</li>
             </ul>
-            <br>
-            <h3>Lista de las carnes (mejores a peores)</h3>
+        </section>
+
+        <section>
+            <h2 class="tac ff_header">Lista de las carnes (mejores a peores)</h2>
             <ol>
                 <li>Ternera</li>
                 <li>Pollo
-                <ol>
-                    <li>Pechuga</li>
-                    <li>Alitas</li>
-                </ol>
+                    <ol>
+                        <li>Pechuga</li>
+                        <li>Alitas</li>
+                    </ol>
                 </li>
                 <li>Cerdo</li>
             </ol>
-            <article>
-                <header>
-                    <!--Nunca repetiría el uso de style tanto para cada elemento y menos si es lo mimso, en este caso tenía qu usar esto solo con html-->
-                    <h3 style="text-align: center;">Recetario</h3>
-                    <h4 style="text-align: center;">Para encontrar todo tipo de recetas profesionales</h4>
-                </header>
-                
-                <section>
-                    <h5 style="text-align: center;">Ensalada de gambas y jamón</h5>
-                    <h6 style="text-align: center;">Ingredientes</h6>
-                    <figure>
-                        <img src="https://img.hellofresh.com/w_3840,q_auto,f_auto,c_limit,fl_lossy/hellofresh_website/es/cms/SEO/recipes/ensalada_de_judias_con_jamon_y_langostinos.jpeg" alt="Imagen de una receta" width="100%">
-                    </figure>
-                    <ul>
-                        <li>200g de gambas cocidas</li>
-                        <li>100g de jamón serrano en lonchas</li>
-                        <li>Lechuga variada</li>
-                        <li>Tomates cherry</li>
-                        <li>Aceite de oliva virgen extra</li>
-                        <li>Sal y pimienta al gusto</li>
-                        <li>Vinagre balsámico</li>
-                    </ul>
-                    <h6 style="text-align: center;">Instrucciones</h6>
-                    <ol class="instructions">
-                        <li>Lava y seca bien la lechuga y los tomates cherry.</li>
-                        <li>En un bol grande, mezcla la lechuga y los tomates cherry cortados por la mitad.</li>
-                        <li>Añade las gambas cocidas y las lonchas de jamón troceadas.</li>
-                        <li>Aliña con aceite de oliva, vinagre balsámico, sal y pimienta al gusto.</li>
-                        <li>Mezcla bien y sirve inmediatamente.</li>
-                    </ol>
-                    <p>Si las gambas bailan y el jamón canta, seguro que esta ensalada será una fiesta para tu paladar.</p>
-                </section>
-            </article>   
-            <footer>
-                <p style="text-align: center;">&copy; 2025 UriiHS | <a href="https://github.com/UriiHS" target="_blank">Mi GitHub</a></p>
-            </footer>
-        </main>
-        
+        </section>
 
-    </body>
+        <section>
+            <h2 class="tac ff_header">Recetario</h2>
+            <h3 class="tac ff_header">Para encontrar todo tipo de recetas profesionales</h3>
+            
+            <article>
+                <h3 class="tac ff_header">Ensalada de gambas y jamón</h3>
+                <figure>
+                    <img src="https://img.hellofresh.com/w_3840,q_auto,f_auto,c_limit,fl_lossy/hellofresh_website/es/cms/SEO/recipes/ensalada_de_judias_con_jamon_y_langostinos.jpeg" alt="Imagen de una receta" width="100%">
+                    <figcaption>Ensalada de gambas y jamón</figcaption>
+                </figure>
+
+                <h4 class="tac ff_header">Ingredientes</h4>
+                <ul>
+                    <li>200g de gambas cocidas</li>
+                    <li>100g de jamón serrano en lonchas</li>
+                    <li>Lechuga variada</li>
+                    <li>Tomates cherry</li>
+                    <li>Aceite de oliva virgen extra</li>
+                    <li>Sal y pimienta al gusto</li>
+                    <li>Vinagre balsámico</li>
+                </ul>
+
+                <h4 class="tac ff_header">Instrucciones</h4>
+                <ol class="instructions">
+                    <li>Lava y seca bien la lechuga y los tomates cherry.</li>
+                    <li>Mezcla la lechuga y los tomates cherry cortados por la mitad.</li>
+                    <li>Añade las gambas cocidas y las lonchas de jamón troceadas.</li>
+                    <li>Aliña con aceite de oliva, vinagre balsámico, sal y pimienta al gusto.</li>
+                    <li>Mezcla bien y sirve inmediatamente.</li>
+                </ol>
+                <p>Si las gambas bailan y el jamón canta, seguro que esta ensalada será una fiesta para tu paladar.</p>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p class="tac">&copy; 2025 UriiHS | <a href="https://github.com/UriiHS" target="_blank">Mi GitHub</a></p>
+        <span class="arrow_top"><a href="#top">^</a></span>
+    </footer>
+</body>
 </html>

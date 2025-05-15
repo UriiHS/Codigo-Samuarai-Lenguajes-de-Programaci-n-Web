@@ -1,0 +1,74 @@
+
+/* Globales*/
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*Elementos*/
+body {
+    background-color: #274754;
+    color: white;
+    margin: 0;
+}
+
+header {
+    background-color: #e76e50;
+    position: fixed;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+footer {
+    background-color: #f9c54e;
+    padding: 20px 0px;
+    color: black;
+    margin-top: 40px;
+}
+
+main {
+    width: 40%; 
+    margin: 0 auto;
+}
+
+main section h2 {
+    margin-top: 35px;
+}
+
+li {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+h3 {
+    font-size: 30px;
+}
+h4 {
+    font-size: 25px;
+}
+
+/* Clases */
+.ff_header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.tac {
+    text-align: center;
+}
+
+.arrow_top {
+    border: black 1px solid;
+    padding: 10px;
+    font-size: 40px;
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    background-color: aquamarine;
+}
